@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Accordion Menu</title>
+</head>
+<body>
+    <div class="container">
+        <div class="accordion">
+            <div class="accordion-item">
+                <div data-js="header" data-index="" class="header">
+                    <div class="icon">
+                        <img src="/img/profile.svg" alt="profile" srcset="">
+                    </div>
+                    <div class="title">Profile</div>
+                    <div class="arrow">
+                        <i data-js="arrow" class="fas fa-angle-down"></i>
+                    </div>
+                </div>
+                <div data-js="body" class="body">
+                    <ul>
+                        <li>Picture</li>
+                        <li>Account</li>
+                        <li>Posts</li>
+                    </ul> 
+                </div>
+            </div><!-- item -->
+
+            <div class="accordion-item">
+                <div data-js="header" data-index="" class="header">
+                    <div class="icon">
+                        <img src="/img/mail.svg" alt="mail" srcset="">
+                    </div>
+                    <div class="title">Messages</div>
+                    <div class="arrow">
+                        <i data-js="arrow" class="fas fa-angle-down"></i>
+                    </div>
+                </div>
+                <div data-js="body" class="body">
+                    <ul>
+                        <li>New</li>
+                        <li>Sent</li>
+                        <li>Trash</li>
+                    </ul>
+                </div>
+            </div><!-- item -->
+
+            <div class="accordion-item">
+                <div data-js="header" data-index="" class="header">
+                    <div class="icon">
+                        <img src="/img/gear.svg" alt="gear" srcset="">
+                    </div>
+                    <div class="title">Settings</div>
+                    <div class="arrow">
+                        <i data-js="arrow" class="fas fa-angle-down"></i>
+                    </div>
+                </div>
+                <div data-js="body" class="body">
+                    <ul>
+                        <li>Theme</li>
+                        <li>Password</li>
+                        <li>Version</li>
+                    </ul> 
+                </div>
+            </div><!-- item -->
+
+            <div class="accordion-item">
+                <div data-js="header" data-index="" class="header">
+                    <div class="icon">
+                        <img src="/img/logout.svg" alt="logout" srcset="">
+                    </div>
+                    <div class="title">Log out</div>
+                </div>
+            </div><!-- item -->
+        </div>
+    </div>
+    <script src="/app.js"></script>
+</body>
+</html>
